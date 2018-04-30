@@ -1,0 +1,143 @@
+div#tamanio {
+	height: auto;
+	width: 100%;
+}
+div#izq {
+	height: auto;
+	width: 50%;	
+	margin-right: 0px;
+	position: absolute;
+	top:250px;
+	bottom:0px;
+	right:0px;
+	left:130px;
+}
+div#der {
+	height: auto;
+	width: 50%;
+	margin-left: 0px;
+	position: absolute;
+	top:250px;
+	bottom:0px;
+	right:0px;
+	left:800px;
+}
+ul#sin {
+	list-style: none;
+}
+div#tamanio2 {
+	height: auto;
+	width: 100px;
+}
+div#izq2 {
+	float: left;
+	height: 50px;
+}
+div#der2 {
+	float: right;
+	height: 50px;
+}
+.columna1 {
+	position: absolute;
+	top:700px;
+	bottom:0px;
+	right:0px;
+	left:400px;
+	width: 50px;
+}
+.columna2 {
+	position: absolute;
+	top:150px;
+	bottom:0px;
+	right:0px;
+	left:330px;
+	width: 50px;
+}
+.columna3 {
+	position: absolute;
+	top:400px;
+	bottom:0px;
+	right:0px;
+	left:350px;
+	width: 50px;
+}
+.columna-1 {
+	position: absolute;
+	top:250px;
+	bottom:0px;
+	right:0px;
+	left:900px;
+	width: 50px;
+}
+.columna-2 {
+	position: absolute;
+	top:150px;
+	bottom:0px;
+	right:0px;
+	left:900px;
+	width: 50px;
+}
+.columna-3 {
+	position: absolute;
+	top:800px;
+	bottom:0px;
+	right:0px;
+	left:900px;
+	width: 50px;
+}
+.formulario {
+	position: relative;
+	top:;
+	bottom:;
+	right:;
+	left:50px;
+	text-align: center;
+	img
+}	
+.mapa {
+	position: relative;
+	top:;
+	bottom:290px;
+	right:;
+	left:600px;
+}
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+ul li{
+	width: 300px;
+	display: inline-block;
+	}
+.linea {
+	text-decoration: underline; 
+}
+#uno {
+	position: absolute;
+	top:200px;
+	bottom:0px;
+	right:0px;
+	left:150px;
+}
+#dos {
+	position: absolute;
+	top:200px;
+	bottom:0px;
+	right:0px;
+	left:700px;
+}
+#tres {
+	position: absolute;
+	top:450px;
+	bottom:0px;
+	right:0px;
+	left:700px;
+}
+#cuatro {
+	position: absolute;
+	top:450px;
+	bottom:0px;
+	right:0px;
+	left:150px;
+}
