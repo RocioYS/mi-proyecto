@@ -1,0 +1,415 @@
+/*inicio*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#contenedor {
+    width: 50%;   
+    height: 50vh;   
+    overflow: hidden;
+    position: relative; 
+}
+#contenedor video {
+    width: 100%;
+    height: 50hv;
+    position: absolute
+    top;
+}
+#video
+#header1 {
+    margin: 5%;
+    text-align: center;    
+}
+#header1 h1{
+    color: #FFFFFF;
+    font-size: 100px;
+    text-align: center;
+}
+#header1 p {
+    color: #FFFFFF;
+    font-size: 200%;
+    text-align: center; 
+}
+#brand1 {
+    text-align: center;
+}
+#brand h1 {
+    color: #FFFFFF;
+    font-size: 100px;
+}
+.boton {
+    font-size: 150%;
+    background: #D7263D;
+    border: 0px;
+    color: #FFFFFF
+}
+/*bicicletas*/
+#slider-ciudad {
+    background-image: url(../images/alquiler-bicicletas-malaga.png);
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+#slider-ciudad h1 {
+    text-align: center;
+    color: #02182B;
+    padding: 16vh 0vh;
+    margin: 0px 0px;
+    font-size: 3rem;
+    letter-spacing: 7px;
+    font-weight: 300;
+}
+#main {
+    text-align: center;
+    margin: 4% 0%;
+}
+#main h1 {
+    color:#006494;
+}
+#lista-bicicletas {
+    text-align: left; 
+}
+#lista-bicicletas table {
+    margin: 3% auto;
+    border-collapse: collapse;   
+}
+#lista-bicicletas th {
+    background-color: #D7263D;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    padding: 10px 30px;
+}
+#lista-bicicletas td {
+    font-size: 0.8rem;
+    padding: 15px 35px;
+}
+.lista2 {
+    background-color: #EFEFEF;
+}
+#contenedor-rutas {
+    width: 100%;
+    text-align: center;
+    background-color: #efefef;
+    overflow: auto;
+    padding: 90px 0px;
+}
+.row-rutas {
+    width: 1090px;
+    margin: 0px auto;
+}
+.col-ruta {
+    width: 31%;
+    float: left;
+    margin: 0% 1%;
+    box-sizing: border-box;
+    background-color: white;
+    padding-bottom: 45px;
+}
+.col-ruta img {
+    width: 100%;
+    background-color: #006494;
+}
+.col-ruta p {
+    background-color: #02182B;
+    color: #efefef;
+    padding: 10px 10px;
+    margin: -4px auto;
+}
+.buttons {
+  color: #EFEFEF;
+  background-color: #D7263D;
+  border: 0px;
+  padding: 10px 27px;
+  font-size: 1.1rem;
+} 
+/*Login*/
+#centerbike {
+    text-align: center;
+    margin: 50px;
+}
+.letra {
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    margin: -20px;
+}
+#letra2 {
+    text-align: center;
+    font-size: 20px;
+}
+#face {
+    text-align: center;
+}
+.btstyle {
+    width: 1000px; 
+    height: 50px; 
+    background: #4c66a4;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.btstyle:hover {
+    background: #4c66a4;
+    width: 1000px;
+    height: 60px;
+}
+.btstyle2 {
+    width: 1000px; 
+    height: 50px; 
+    font-size: 20px;
+    border-radius: 5px;   
+}
+.letra3 {
+    font-size: 20px;
+}
+.btstyle3 {
+    width: 1005px; 
+    height: 50px; 
+    background:#D7263D;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.btstyle3:hover {
+    background:#D7263D;
+    width: 1000px;
+    height: 60px; 
+}
+#final {
+    text-align: center;
+    font-size: 20px;
+}  
+/*registro*/
+#registro {
+    width: 1090px;
+    margin: 0px auto;
+}
+#registro2 {
+    width: 100vh;
+    height: 100px;
+    float: left;
+    background-image: url(../images/image-registro.jpg);
+    background-size: cover;
+    background-position: top right;
+}
+#registro3 {
+    height: 80%;
+    
+}
+#registrocenter {
+    text-align: center;
+    font-size: 150%;
+    margin: 50px auto;
+}
+.btstyle4 {
+    height: 50px; 
+    background: #4c66a4;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.btstyle4:hover {
+    background: #4c66a4;
+    height: 60px;
+}
+.btstyle5 {
+    height: 50px; 
+    font-size: 20px;
+    border-radius: 5px;   
+}
+.btstyle6 {
+        height: 50px; 
+    background:#D7263D;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.btstyle6:hover {
+    background:#D7263D;
+    width: 950px;
+    height: 60px; 
+}
+/*Reservas*/
+#headboard {
+    width: 100%;
+    background-color: #00AEEF;
+}
+#headboardleft {
+    width: 50%; 
+    float: left;
+    text-align: center;
+    margin: 1% 0% 0% -15%;
+}
+#Headboardright {
+    width: 50%;
+    float: left;
+    text-align: center;
+    margin: 2% 0% 0% 10%;
+}
+#Headboardright li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin: 0px 30px;
+}
+.Headboardlist {
+	border-style: none;
+	background-color:#00AEEF;
+	font-size: 20px;
+	color: white; 
+	width: 80%;
+}
+#headboardleft h2 {
+	margin: 10px auto;
+	color: white;
+}
+.sesion1 {
+	background-color: #D7263D;
+	color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+i.far.fa-user.fa-2x {
+    font-size: 16px;
+}
+#Headboardright i {
+    margin-right: 10px;
+}
+#reservacenter {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    margin: 8% 5%;
+}
+#mapleft {
+    width: 60%;
+    float: left;
+}
+#mapright {
+    width: 29%;
+    float: right;
+    margin: -1% 45px;
+}
+.volver {
+    color: #918A80;
+}
+.mapbackground {
+    color: white;
+    background-color: #02182B;
+    width: 69%;
+    height: 55px;
+    margin: 0px auto;
+    padding: 1px 54px;
+}
+#cursiva {
+    font-style: italic;
+    text-align: center;
+    width: 125%;
+    margin: 0px -169px;
+    font-size: 80%; 
+}
+.otro2 {
+    font-size: 80%;
+    text-align: left;
+    margin: -11px 153px;
+}
+#negrita {
+    font-weight: bold;
+}
+.res {
+    font-weight: bold;
+    font-size: 150%;
+}
+.btstyle7 {
+    width: 100%;   
+    height: 55px; 
+    background:#D7263D;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+#down {
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+    background-color: #333333;
+}
+#columnas {
+    width: 25%;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#columnas h2 {
+    color: #cccccc;
+}
+#columnas li {
+    color: #918A80;
+}
+#footer {
+    background-color: #202020;
+    padding: 20px 25px;
+    color: #918A80;
+}    
+#bici {
+    padding: 0px 50px;
+    margin: -23px 10px; 
+}
+#footerright {
+    margin: 0px 25px;
+}
+#footerright i {
+    margin: 0px 10px;
+}
+.clear {
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.body {
+    margin: 0%;
+}
+/*reserva-ok*/
+#reserva {
+    text-align: center;
+}
+#reserva span{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#reservamapa {
+    text-align: center;
+}
+#reservamapa1 {
+    color: white;
+    background-color: #02182B;
+    width: 25%;
+    text-align: center;
+    margin: 0% 31%;
+    padding: 1% 6%;
+}
+#cursiva2 {
+    font-style: italic;
+    text-align: center;
+    font-size: 81%;
+    margin: 0% 34%;
+    padding: 0px 0px;
+}
+#otro {
+    text-align: center;
+    font-size: 81%;
+}
+#negrita2 {
+    font-weight: bold;
+}
+
